@@ -94,5 +94,5 @@ The browser will **automatically open** at `http://127.0.0.1:5050`
 ## 👤 Author
 
 **Subham Mishra**  
-B.Tech CSE (AI/ML) — Centurion University of Technology and Management  
-[LinkedIn](https://linkedin.com/in/subhammishra23) · [GitHub](https://github.com/subham23s)
+B.Tech CSE (AI/ML) 
+[LinkedIn](https://linkedin.com/in/subhammishra23) · 
