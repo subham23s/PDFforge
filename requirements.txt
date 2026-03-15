@@ -1,0 +1,7 @@
+flask
+pypdf
+reportlab
+pillow
+python-docx
+markdown2
+openpyxl

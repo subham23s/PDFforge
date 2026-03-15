@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDFforge — Convert Anything to PDF</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">
+      <div class="logo-icon">⚡</div>
+      <div class="logo-text">PDFforge</div>
+    </div>
+    <h1>Convert <span>Anything</span><br>to PDF</h1>
+    <p class="subtitle">// fast · free · private · no signup</p>
+  </header>
+
+  <div class="upload-zone" id="drop-zone">
+    <span class="upload-icon">📄</span>
+    <h2>Drop your files here</h2>
+    <p>or click to browse from your device</p>
+    <button class="browse-btn" onclick="document.getElementById('file-input').click()">
+      📁 Browse Files
+    </button>
+    <input type="file" id="file-input" multiple
+      accept=".txt,.md,.html,.htm,.png,.jpg,.jpeg,.gif,.bmp,.webp,.tiff,.docx,.xlsx,.csv,.pdf">
+  </div>
+
+  <div class="formats">
+    <span class="fmt-tag">TXT</span>
+    <span class="fmt-tag">MARKDOWN</span>
+    <span class="fmt-tag">HTML</span>
+    <span class="fmt-tag">DOCX</span>
+    <span class="fmt-tag">XLSX</span>
+    <span class="fmt-tag">CSV</span>
+    <span class="fmt-tag">PNG</span>
+    <span class="fmt-tag">JPG</span>
+    <span class="fmt-tag">WEBP</span>
+    <span class="fmt-tag">GIF</span>
+    <span class="fmt-tag">PDF → PDF</span>
+  </div>
+
+  <div class="file-list" id="file-list"></div>
+
+  <div class="progress-wrap" id="progress-wrap">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <button class="convert-btn" id="convert-btn" disabled onclick="convertAll()">
+    ⚡ Convert to PDF
+  </button>
+
+  <footer>
+    PDFforge — all processing happens locally on the server · no data stored
+  </footer>
+</div>
+
+<script src="/static/main.js"></script>
+</body>
+</html>
